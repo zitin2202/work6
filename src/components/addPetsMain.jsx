@@ -50,12 +50,10 @@ const AddPetsMain = () => {
 
                         <div className="mb-3 p-3 border">
                             <label htmlFor="image1" className="form-label">Выберите файлы изображений:</label>
-                            <input type="file" className="form-control" id="image1" value="Загрузить изображение"/>
+                            <input type="file" className="form-control" id="image1"/>
                                 <div className="form-text">Обязательное поле</div>
-                                <input type="file" className="form-control mb-3" id="image2"
-                                       value="Загрузить изображение"/>
-                                    <input type="file" className="form-control mb-3" id="image3"
-                                           value="Загрузить изображение"/>
+                                <input type="file" className="form-control mb-3" id="image2"/>
+                                    <input type="file" className="form-control mb-3" id="image3"/>
                         </div>
 
                         <div className="mb-3">
