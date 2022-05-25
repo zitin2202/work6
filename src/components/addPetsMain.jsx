@@ -3,7 +3,6 @@ import React from 'react';
 const AddPetsMain = () => {
     return (
         <div>
-            <main style={{minHeight: "70vh"}}>
                 <h2 className="text-center text-white bg-primary m-2">Добавление нового объявления</h2>
                 <div className="p-3">
                     <form className="w-50 m-auto border border-primary p-3" style={{minWidth: "300px"}}>
@@ -77,7 +76,6 @@ const AddPetsMain = () => {
                         <input type="submit" className="btn btn-primary form-control" value="Зарегистрировать"/>
                     </form>
                 </div>
-            </main>
         </div>
     );
 };

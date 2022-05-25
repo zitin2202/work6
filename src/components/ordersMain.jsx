@@ -1,7 +1,7 @@
 import React from 'react';
 import Goat from '../imagePets/pets/коза.jpeg';
 import Cat from '../imagePets/pets/кошка.jpg';
-const OrderMain = () => {
+const OrdersMain = () => {
     return (
         <div>
             <main style={{minHeight: "70vh"}}>
@@ -57,4 +57,4 @@ const OrderMain = () => {
     );
 };
 
-export default OrderMain;
+export default OrdersMain;

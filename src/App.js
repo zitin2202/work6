@@ -9,6 +9,7 @@ import AddPets from "./pages/addPets";
 import Auth from "./pages/auth";
 import {Routes, Route} from "react-router-dom";
 import Index from "./pages";
+import Orders from "./pages/orders";
 
 
 
@@ -26,6 +27,7 @@ function App() {
               <Route path={'/profile'} element={<Profile/>}/>
               <Route path={'/registration'} element={<Registration/>}/>
               <Route path={'/search'} element={<Search/>}/>
+                <Route path={'/orders'} element={<Orders/>}/>
             </Routes>
         </div>
   );
